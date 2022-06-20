@@ -1,0 +1,41 @@
+.login {
+    width: 50%;
+    height: 50%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login h2 {
+    text-align: center;
+}
+.login p {
+    color: red;
+    text-align: center;
+}
+
+.login input{
+    margin: 0 auto;
+    width: 47%;
+    padding: 12px 10px;
+    /* margin: 10px 0; */
+}
+
+.login button {
+    margin: 0 auto;
+    width: 50%;
+    padding: 12px 20px;
+    color: white;
+    background-color: #000;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.login button:hover {
+    color: #000;
+    background-color: white;
+    border: 1px solid black;
+}
